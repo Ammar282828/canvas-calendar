@@ -25,6 +25,7 @@ jobs:
         env:
           CANVAS_API_URL: ${{ secrets.CANVAS_API_URL }}
           CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+          MY_TIMETABLE: ${{ secrets.MY_TIMETABLE }}
         run: python canvas_full_sync.py
 
       - name: Commit and Push
