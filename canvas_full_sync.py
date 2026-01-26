@@ -1,29 +1,73 @@
 import os
 import re
+import json
 from canvasapi import Canvas
 from ics import Calendar, Event
 from datetime import datetime, timedelta
 
-# --- THE SMART PARSER ---
-def find_date_in_text(text, default_date_str):
+# --- LOAD SCHEDULE FROM SECRET ---
+def load_schedule():
     """
-    Looks for dates like '28 Jan', 'Jan 28th', 'January 28' in the text.
-    If found, returns that specific date object.
-    If not found, returns the original default_date.
+    Loads the user's class schedule from the 'MY_TIMETABLE' secret.
+    Expected format: {"CS 363": [1, 3], "MATH 205": [0, 2, 4]}
     """
+    timetable_str = os.environ.get("MY_TIMETABLE", "{}")
+    try:
+        return json.loads(timetable_str)
+    except json.JSONDecodeError:
+        print("⚠️ Warning: Could not parse MY_TIMETABLE. Check your JSON format.")
+        return {}
+
+MY_SCHEDULE = load_schedule()
+
+def get_next_class_date(course_code, posted_date_obj):
+    """
+    Finds the next class date based on MY_SCHEDULE.
+    """
+    if not MY_SCHEDULE:
+        return None
+
+    # Clean up course code match
+    base_code = None
+    for key in MY_SCHEDULE:
+        if key in course_code:
+            base_code = key
+            break
+    
+    if not base_code:
+        return None 
+
+    class_days = sorted(MY_SCHEDULE[base_code])
+    posted_day_idx = posted_date_obj.weekday()
+    
+    # Find next day
+    days_ahead = 0
+    for day in class_days:
+        if day > posted_day_idx:
+            days_ahead = day - posted_day_idx
+            break
+    
+    if days_ahead == 0:
+        days_ahead = (7 - posted_day_idx) + class_days[0]
+        
+    return posted_date_obj + timedelta(days=days_ahead)
+
+def find_date_in_text(text, default_date_str, course_code=""):
     if not text:
         return datetime.strptime(default_date_str, "%Y-%m-%d")
 
-    # Current year (to handle "Jan 28" without a year)
+    posted_date_obj = datetime.strptime(default_date_str[:10], "%Y-%m-%d")
     current_year = datetime.now().year
-    
-    # Regex Patterns to catch dates
-    # 1. Catch "28 Jan" or "28th January" or "28 Jan 2026"
-    #    Group 1: Day, Group 3: Month, Group 5: Year (Optional)
+
+    # 1. "Next Class" Logic
+    if re.search(r"\b(next\s+class|next\s+lecture|next\s+session)\b", text, re.IGNORECASE):
+        next_class_date = get_next_class_date(course_code, posted_date_obj)
+        if next_class_date:
+            print(f"   ✨ Found 'Next Class' in {course_code}: Moved to {next_class_date.date()}")
+            return next_class_date
+
+    # 2. Explicit Date Logic (Regex)
     pattern1 = r"(\d{1,2})(?:st|nd|rd|th)?\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s*,?\s*(\d{4})?"
-    
-    # 2. Catch "Jan 28" or "January 28th" or "Jan 28 2026"
-    #    Group 1: Month, Group 2: Day, Group 4: Year (Optional)
     pattern2 = r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+(\d{1,2})(?:st|nd|rd|th)?\s*,?\s*(\d{4})?"
 
     match1 = re.search(pattern1, text, re.IGNORECASE)
@@ -31,45 +75,32 @@ def find_date_in_text(text, default_date_str):
 
     try:
         day, month_str, year_str = 0, "", ""
-
         if match1:
-            day = int(match1.group(1))
-            month_str = match1.group(2)
-            year_str = match1.group(3)
+            day, month_str, year_str = int(match1.group(1)), match1.group(2), match1.group(3)
         elif match2:
-            month_str = match2.group(1)
-            day = int(match2.group(2))
-            year_str = match2.group(3)
+            month_str, day, year_str = match2.group(1), int(match2.group(2)), match2.group(3)
         else:
-            # No date found in title, use the posted date
-            return datetime.strptime(default_date_str[:10], "%Y-%m-%d")
+            return posted_date_obj
 
-        # Convert Month Name to Number
         months = {
             "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
             "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12
         }
         month = months[month_str.lower()[:3]]
         
-        # Handle Year: Use found year, or guess current/next year
         if year_str:
             year = int(year_str)
         else:
-            # If explicit date is "Jan" but we are in "Dec", assume next year
             if month < datetime.now().month and (datetime.now().month - month) > 6:
                 year = current_year + 1
             else:
                 year = current_year
 
-        # Return the parsed date!
         return datetime(year, month, day)
 
-    except Exception as e:
-        print(f"⚠️ Regex failed on '{text}': {e}")
-        return datetime.strptime(default_date_str[:10], "%Y-%m-%d")
+    except Exception:
+        return posted_date_obj
 
-
-# --- MAIN SCRIPT ---
 def main():
     API_URL = os.environ["CANVAS_API_URL"]
     API_KEY = os.environ["CANVAS_API_KEY"]
@@ -77,17 +108,15 @@ def main():
     cal = Calendar()
     
     start_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
-    end_date = (datetime.now() + timedelta(days=365)).strftime("%Y-%m-%d")
-
-    print("🔄 Syncing with Smart Date Parsing...")
+    
+    print("🔄 Syncing...")
 
     courses = canvas.get_courses(enrollment_state='active')
     
     for course in courses:
         try:
-            # A. Assignments (Standard)
-            assignments = course.get_assignments(bucket='upcoming')
-            for assign in assignments:
+            # Assignments
+            for assign in course.get_assignments(bucket='upcoming'):
                 if assign.due_at:
                     e = Event()
                     e.name = f"📝 {assign.name} ({course.course_code})"
@@ -95,36 +124,28 @@ def main():
                     e.description = assign.html_url
                     cal.events.add(e)
             
-            # B. Announcements (With Regex Magic)
-            announcements = course.get_discussion_topics(only_announcements=True)
-            for ann in announcements:
+            # Announcements
+            for ann in course.get_discussion_topics(only_announcements=True):
                 if ann.posted_at and ann.posted_at > start_date:
                     e = Event()
-                    
-                    # 1. Try to find a date in the Title
-                    parsed_date = find_date_in_text(ann.title, ann.posted_at)
+                    parsed_date = find_date_in_text(ann.title, ann.posted_at, course.course_code)
                     
                     e.name = f"📢 {ann.title} ({course.course_code})"
                     e.begin = parsed_date
                     e.make_all_day()
-                    e.description = f"Originally Posted: {ann.posted_at[:10]}\nLink: {ann.html_url}\n\n{ann.message[:200]}..."
+                    e.description = f"Originally Posted: {ann.posted_at[:10]}\n{ann.html_url}"
                     cal.events.add(e)
 
         except Exception as e:
-            print(f"⚠️ Skipped {course.name}: {e}")
+            pass
 
-    # C. Calendar Events
+    # Generic Calendar Events
     try:
         user = canvas.get_current_user()
-        events = user.get_calendar_events(start_date=start_date, end_date=end_date)
-        for event in events:
+        for event in user.get_calendar_events(start_date=start_date):
             e = Event()
             e.name = f"🗓️ {event.title}"
             e.begin = event.start_at
-            if event.end_at:
-                e.end = event.end_at
-            else:
-                e.duration = {"hours": 1}
             cal.events.add(e)
     except:
         pass
