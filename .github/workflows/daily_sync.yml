@@ -2,7 +2,7 @@ name: Daily Calendar Sync
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Runs at 11:00 AM Pakistan Time (06:00 UTC)
+    - cron: '0 0 * * *' # Runs at 11:00 AM Pakistan Time (06:00 UTC)
   workflow_dispatch:    # Allows you to click a button to run it manually
 
 permissions:
