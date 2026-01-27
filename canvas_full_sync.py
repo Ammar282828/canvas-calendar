@@ -125,15 +125,21 @@ def main():
                     cal.events.add(e)
             
             # Announcements
+# B. Announcements (Updated to read the MESSAGE body too)
             for ann in course.get_discussion_topics(only_announcements=True):
                 if ann.posted_at and ann.posted_at > start_date:
                     e = Event()
-                    parsed_date = find_date_in_text(ann.title, ann.posted_at, course.course_code)
+                    
+                    # Combine Title + Message so we don't miss dates hidden in the text
+                    full_text = f"{ann.title} {ann.message}"
+                    
+                    # PASS THE FULL TEXT HERE
+                    parsed_date = find_date_in_text(full_text, ann.posted_at, course.course_code)
                     
                     e.name = f"📢 {ann.title} ({course.course_code})"
                     e.begin = parsed_date
                     e.make_all_day()
-                    e.description = f"Originally Posted: {ann.posted_at[:10]}\n{ann.html_url}"
+                    e.description = f"Originally Posted: {ann.posted_at[:10]}\n{ann.html_url}\n\n{ann.message[:200]}..."
                     cal.events.add(e)
 
         except Exception as e:
@@ -157,3 +163,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
