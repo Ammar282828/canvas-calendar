@@ -2,183 +2,189 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Originally Posted: 2026-01-19\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61695\n\n<p>Hello everyone<br>I hope you all are doing well.</p>\n<p>I have opened the signup for project teams. The following are the team numbers for each section.</p>\n<p>L1: Team 1 to Team 15</p>\n<p>L2: Team...
-SUMMARY:📢 Project Teams Signup (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:d88ad061-722a-448a-878b-0c217edd6aa4@d88a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260121
-DESCRIPTION:Originally Posted: 2026-01-21\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61780\n\n<p>Dear class</p>\n<p>Quick recap:</p>\n<p>1. Five Tribes of ML and why Generative AI ≠ predictive modeling for tasks like ranking and forecasting - &nbsp\;The concept of moat / USP in AI products (why “...
-SUMMARY:📢 Lecture Recap\, Quiz Update\, and Assignment 1 (CS 435-L1)
-UID:1097c20c-f775-49d9-a181-d324e82d984e@1097.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61618\n\n<p>Dear Students (Section C3)\,</p>\n<p>Kaavish (Live) Syllabus is now available on Canvas (LMS) Site.&nbsp\;</p>\n<p>Please note that according to the syllabus\, we have a scheduled standup meeting on 19t...
-SUMMARY:📢 Upcoming Sessions + Weekly Meetings (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:8ba01e95-86ee-40e7-bcc4-ba38a509ce77@8ba0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260130
-DESCRIPTION:Originally Posted: 2026-01-28\nhttps://hulms.instructure.com/courses/5046/discussion_topics/62035\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>You all need to join the project groups on Canvas max by 30th January\, Friday\, 11:59 p.m. After that\, it will close. Please make your gro...
-SUMMARY:📢 Project Group Joining Deadline (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:e063b965-a054-44c8-90c5-ee00be2da8a7@e063.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://hulms.instructure.com/courses/4981/assignments/62988
-DTSTART:20260201T185959Z
-SUMMARY:📝 A2: Ethics of AI MOOC (CS 435-L1)
-UID:e998299c-3ed1-4e28-94cb-3b7bbcfa11a8@e998.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260126
-DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61942\n\n<p>Dear students\,</p>\n<p>Quiz 2 will start at 4:30pm. Please be at W-321 to attempt the quiz.</p>\n<p>Best\,</p>\n<p>CS 435 Team</p>...
-SUMMARY:📢 Quiz 2 (CS 435-L1)
-UID:65991cd7-a0b6-4ad0-b1ba-403650152a7c@6599.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260122
-DESCRIPTION:Originally Posted: 2026-01-22\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61828\n\n<p>Hi all\,</p>\n<p>Due to an emergency I won’t be able to conduct the lecture today (22/01/26). I’ll share the make up lecture schedule later.&nbsp\;<br><br>- Hammad</p>...
-SUMMARY:📢 [L2-Hammad] No class today (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:1bcacc1b-44ed-4b45-a686-e8606c6b3fda@1bca.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260120
-DESCRIPTION:Originally Posted: 2026-01-20\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61753\n\n<p>Dear Students (Section C3)\,</p>\n<p>Thank you for the updates on your projects during Standup Meeting 1.&nbsp\;</p>\n<p>For standup meeting 2\, as discussed\, each group should demonstrate their actual ...
-SUMMARY:📢 Standup Meeting 2 (Section C3) (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:15c14488-a255-49e3-927a-c9526d85be63@15c1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260127
-DESCRIPTION:Originally Posted: 2026-01-25\nhttps://hulms.instructure.com/courses/4829/discussion_topics/61908\n\n<div><span>Dear all!</span></div>\n<div><span>Please keep in mind that the "Popper" reading assignment is due Jan 27th\, 02:30 pm.</span></div>\n<div><span>Part of the assignment is to pose thoughtful qu...
-SUMMARY:📢 Annotated Reading Assignment "Popper" due to Jan 27 (02:30 pm)  (PHIL 212-S1)
-UID:097b84a1-ac4f-44b5-8488-6c42d869cde5@097b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61643\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>Weekly challenge 01 has been released. Please follow the instructions and submit it on time. If you have any queries\, please comment in t...
-SUMMARY:📢 Weekly Challenge 01 Released (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:66ecec7e-d870-4c28-b35b-cf62ba328efd@66ec.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260127
-DESCRIPTION:Originally Posted: 2026-01-27\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61978\n\n<div>\n<div><span>This is the general rubric for GRPs:</span></div>\n<div><span>• Brief recap of last week's topics&nbsp\;</span><span>highlighting the crucial discussions/classroom drama</span></div>\n<d...
-SUMMARY:📢 GRP Rubric (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:4e9ea5f2-99e2-4f45-ae9d-b19946673f1e@4e9e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260129
-DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61953\n\n<p>Dear Students:&nbsp\; Quiz 1 for the course will be held in the Thursday-class (Jan 29).&nbsp\; All material covered will be included.</p>...
-SUMMARY:📢 Quiz 1 - Section L1 (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:0a972def-3134-44af-ae80-aa15e958cc57@0a97.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Originally Posted: 2026-01-14\nhttps://hulms.instructure.com/courses/4989/discussion_topics/61509\n\n<p>Dear Students\,<br><br>All future lectures will be held in Room C-200.</p>\n<p>Regards\,</p>\n<p>B. Wajid</p>...
-SUMMARY:📢 B. Wajid - Room Change (C-200) (CS 450-L1)
-UID:2ba29006-6088-4f48-83c9-5be24a1d492d@2ba2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260201
-DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61951\n\n<p>Dear everyone\,</p>\n<p>Here’s a brief recap of Lecture 3 (the recording can be found in the meeting chat on Teams).</p>\n<p>We introduced Ethics &amp\; AI as a taxonomy\, including:</p>\n<ul>\n<li>the di...
-SUMMARY:📢 Lecture 3 Recap\, Quiz & Assignment (CS 435-L1)
-UID:e52f6c52-b22a-42db-9fe5-8287b885ba48@e52f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260122
-DESCRIPTION:Originally Posted: 2026-01-22\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61863\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p><a class="inline_disabled" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJi3k8dXr8daHEY3HaIYL1LM3OnXPXymXooUHxeFVlUDmagHqQ4PyVp...
-SUMMARY:📢 Recitation Sessions and TAs Ehsaas Hours Schedule (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:ce6c15c3-4a2d-406f-8ad2-d0e9e80cac6d@ce6c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260120
-DESCRIPTION:Originally Posted: 2026-01-20\nhttps://hulms.instructure.com/courses/4989/discussion_topics/61764\n\n<p>Dear Students:</p>\n<p>Prior to our class on Thursday\, please go through the following:</p>\n<ul>\n<li>Watch this video: <a href="https://www.youtube.com/watch?v=EDVKxSNdSic&amp\;t=15s" target="_blank"...
-SUMMARY:📢 B. Wajid\, Class on 20.01.2026 (CS 450-L1)
-UID:761de2aa-3470-44f2-b6a8-2a5078992faa@761d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Originally Posted: 2026-01-14\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61495\n\n<p>Dear Students\,&nbsp\;</p>\n<p>Welcome to the Generative AI course! You can find the Office Hours and the Weekly Readings in the <a title="General" href="https://hulms.instructure.com/courses/4981/mod...
-SUMMARY:📢 Instructions for the course (CS 435-L1)
-UID:fcb40d9f-c52a-41be-9abb-54f0f41fc22e@fcb4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Originally Posted: 2026-01-19\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61722\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>From week 3 onwards\, one of the TAs or RAs will conduct 2 recitation sessions every week. The problems discussed in weekly challenges wou...
-SUMMARY:📢 Slots selection for Recitation Sessions (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:a7363d8d-717f-4fa1-a574-2731e8c3d5dc@a736.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260204
-DESCRIPTION:Originally Posted: 2026-01-27\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61979\n\n<p>Hi all\,</p>\n<p>Makeup session has been scheduled on February 4\, 2026 from 5:35pm to 6:50pm at Ideal Studio (N-351).&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>- Hammad</p>...
-SUMMARY:📢 [hammad-L2] Makeup session on Wed\, Feb 4\, 5:35pm to 6:50pm at Ideal Studio (N-351) (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:45349732-a15a-406e-a4f3-eaf49915ea3e@4534.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260129
-DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61937\n\n<p><span data-teams="true">Dear Kaavish Students\,</span></p>\n<p><span data-teams="true">Career City 2026 is being held on 29th January from 10-5 pm and will be featuring 100+ organization\, mentorship ...
-SUMMARY:📢 Career City 2026 - On Jan 29 (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:92d923a7-2a03-4bec-a3ea-4ca65ffbd4c6@92d9.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260202
 DESCRIPTION:Originally Posted: 2026-01-29\nhttps://hulms.instructure.com/courses/5040/discussion_topics/62102\n\n<p>Dear Students (Section C3)\,</p>\n<p>Progress Update for the next two weeks for Section C3 is scheduled as follows:</p>\n<p>Week 4 (Feb 2\, 2026):</p>\n<ul>\n<li>Media Scope (8.30-8.55am)\,&nbsp\;</li>\n<li...
 SUMMARY:📢 Progress Update Schedule (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:60d5dd3d-3007-4427-bdc0-1f6253bbff6e@60d5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260128
-DESCRIPTION:Originally Posted: 2026-01-28\nhttps://hulms.instructure.com/courses/4981/discussion_topics/62030\n\n<p><strong data-start="136" data-end="155">Hello everyone\,</strong><br data-start="155" data-end="158">At this point in the semester\, you should start working on your projects. The following document ...
-SUMMARY:📢 Final Project/Research Paper (CS 435-L1)
-UID:8e191c5b-1b6e-4b38-a422-1fad1a3e6fbd@8e19.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:https://hulms.instructure.com/courses/5040/assignments/62138
-DTSTART:20260202T185900Z
-SUMMARY:📝 01-Progress Update (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:3c7cc839-6d5f-4c43-ba17-8f3c0e9efc94@3c7c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260125
-DESCRIPTION:Originally Posted: 2026-01-25\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61912\n\n<p><span style="font-family: inherit\; font-size: 1rem\;">Hello everyone</span></p>\n<p>I'll be your TA for CS 435- GenAI this semester. I hope you guys have a great time in the course.<br>I'll be keepin...
-SUMMARY:📢 Announcement from your TA (CS 435-L1)
-UID:50cf2297-8996-4af1-828b-96e84e7f25e5@50cf.org
+UID:a112c76b-0334-41cc-abc0-d917a019e332@a112.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260129
 DESCRIPTION:Originally Posted: 2026-01-29\nhttps://hulms.instructure.com/courses/4829/discussion_topics/62083\n\n<p>Hi all!&nbsp\;</p>\n<p>I extended the submission deadline of the Thagard assignment to <strong>tonight\, 11:59 pm</strong>.&nbsp\;</p>\n<p>All the best\,&nbsp\;</p>\n<p>Dr. Susanne Beiweis</p>...
 SUMMARY:📢 Thagard Assignment - Submission Deadline Extended  (PHIL 212-S1)
-UID:02e918fe-6f72-460e-9104-7ad4315d76b1@02e9.org
+UID:303515a9-5887-4835-bef9-47a4ec72b4e9@3035.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260129
-DESCRIPTION:Originally Posted: 2026-01-29\nhttps://hulms.instructure.com/courses/5046/discussion_topics/62074\n\n<p>Hi all\,</p>\n<p>I need your continuous feedback so please fill the lecture feedback from latest by midnight of lecture day. Form <a class="inline_disabled" title="Link" href="https://docs.google.com...
-SUMMARY:📢 [L2-Hammad] Lecture Feedback Form (Mandatory) (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:9a43be26-50b9-49f0-ab12-390a5ea1d6b8@9a43.org
+DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61953\n\n<p>Dear Students:&nbsp\; Quiz 1 for the course will be held in the Thursday-class (Jan 29).&nbsp\; All material covered will be included.</p>...
+SUMMARY:📢 Quiz 1 - Section L1 (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:0bd70e33-f47f-4ad7-9ebd-9f546bdaa5df@0bd7.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61613\n\n<p>Dear Students\,</p>\n<p>The first quiz of this course will take place on <strong>Monday\, 19th January</strong>. Please be present in the classroom <strong>(</strong><span><strong>W-321) from 4:30pm t...
-SUMMARY:📢 Quiz 1 (CS 435-L1)
-UID:b63a06ec-3509-441c-8a56-2df6f8f41efd@b63a.org
+DTSTART;VALUE=DATE:20260130
+DESCRIPTION:Originally Posted: 2026-01-28\nhttps://hulms.instructure.com/courses/5046/discussion_topics/62035\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>You all need to join the project groups on Canvas max by 30th January\, Friday\, 11:59 p.m. After that\, it will close. Please make your gro...
+SUMMARY:📢 Project Group Joining Deadline (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:a5224ee3-6fca-44df-bcca-1256c55c1201@a522.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61951\n\n<p>Dear everyone\,</p>\n<p>Here’s a brief recap of Lecture 3 (the recording can be found in the meeting chat on Teams).</p>\n<p>We introduced Ethics &amp\; AI as a taxonomy\, including:</p>\n<ul>\n<li>the di...
+SUMMARY:📢 Lecture 3 Recap\, Quiz & Assignment (CS 435-L1)
+UID:3d7c2b8f-14a1-4cfc-9784-cedfb8f06bea@3d7c.org
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:https://hulms.instructure.com/courses/5046/assignments/62878
 DTSTART:20260201T185959Z
 SUMMARY:📝 WC02 (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:a86d191d-e7c0-44da-a173-3bc1c71d60a3@a86d.org
+UID:c6468cdd-b966-4d1f-ac1f-4d134cf5d4dc@c646.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260123
 DESCRIPTION:Originally Posted: 2026-01-23\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61896\n\n<p>Hello everyone\,</p>\n<p>WC02 has been released. You can find it in assignments. In case of any queries\, feel free to post them under WC02's discussion thread.&nbsp\;</p>\n<p>This weekly challenge is d...
 SUMMARY:📢 WC02 has been released (CS/CE 412/471-L1\,L2\,L3\,L4)
-UID:8ac71807-3ede-4a5d-86e7-ccbaba20137b@8ac7.org
+UID:2e932669-ee92-4fbf-8a86-3e85c524ff2c@2e93.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260127
+DESCRIPTION:Originally Posted: 2026-01-27\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61978\n\n<div>\n<div><span>This is the general rubric for GRPs:</span></div>\n<div><span>• Brief recap of last week's topics&nbsp\;</span><span>highlighting the crucial discussions/classroom drama</span></div>\n<d...
+SUMMARY:📢 GRP Rubric (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:dc9260df-e5c4-4927-9d98-bc3ca21e4ba4@dc92.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260127
+DESCRIPTION:Originally Posted: 2026-01-25\nhttps://hulms.instructure.com/courses/4829/discussion_topics/61908\n\n<div><span>Dear all!</span></div>\n<div><span>Please keep in mind that the "Popper" reading assignment is due Jan 27th\, 02:30 pm.</span></div>\n<div><span>Part of the assignment is to pose thoughtful qu...
+SUMMARY:📢 Annotated Reading Assignment "Popper" due to Jan 27 (02:30 pm)  (PHIL 212-S1)
+UID:b5045749-e03b-4e4d-a979-9da17a5d5794@b504.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61613\n\n<p>Dear Students\,</p>\n<p>The first quiz of this course will take place on <strong>Monday\, 19th January</strong>. Please be present in the classroom <strong>(</strong><span><strong>W-321) from 4:30pm t...
+SUMMARY:📢 Quiz 1 (CS 435-L1)
+UID:31cb43ad-1a28-4117-948e-4aebcd131a2c@31cb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260204
+DESCRIPTION:Originally Posted: 2026-01-27\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61979\n\n<p>Hi all\,</p>\n<p>Makeup session has been scheduled on February 4\, 2026 from 5:35pm to 6:50pm at Ideal Studio (N-351).&nbsp\;</p>\n<p>&nbsp\;</p>\n<p>- Hammad</p>...
+SUMMARY:📢 [hammad-L2] Makeup session on Wed\, Feb 4\, 5:35pm to 6:50pm at Ideal Studio (N-351) (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:15f76bcc-21ef-4628-b719-1a3d6596adc2@15f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Originally Posted: 2026-01-19\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61722\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>From week 3 onwards\, one of the TAs or RAs will conduct 2 recitation sessions every week. The problems discussed in weekly challenges wou...
+SUMMARY:📢 Slots selection for Recitation Sessions (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:85302b7b-4c90-4838-beda-58a5d914231c@8530.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61643\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>Weekly challenge 01 has been released. Please follow the instructions and submit it on time. If you have any queries\, please comment in t...
+SUMMARY:📢 Weekly Challenge 01 Released (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:d6f2beb3-71cb-49c4-86fa-99e72588dfcf@d6f2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Originally Posted: 2026-01-16\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61618\n\n<p>Dear Students (Section C3)\,</p>\n<p>Kaavish (Live) Syllabus is now available on Canvas (LMS) Site.&nbsp\;</p>\n<p>Please note that according to the syllabus\, we have a scheduled standup meeting on 19t...
+SUMMARY:📢 Upcoming Sessions + Weekly Meetings (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
+UID:54774856-d861-441e-896b-835b53c63e3b@5477.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Originally Posted: 2026-01-19\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61695\n\n<p>Hello everyone<br>I hope you all are doing well.</p>\n<p>I have opened the signup for project teams. The following are the team numbers for each section.</p>\n<p>L1: Team 1 to Team 15</p>\n<p>L2: Team...
+SUMMARY:📢 Project Teams Signup (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:f9b23ca4-5e32-4936-a29e-acba248c6846@f9b2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260121
+DESCRIPTION:Originally Posted: 2026-01-21\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61780\n\n<p>Dear class</p>\n<p>Quick recap:</p>\n<p>1. Five Tribes of ML and why Generative AI ≠ predictive modeling for tasks like ranking and forecasting - &nbsp\;The concept of moat / USP in AI products (why “...
+SUMMARY:📢 Lecture Recap\, Quiz Update\, and Assignment 1 (CS 435-L1)
+UID:56889bde-81f1-4785-acc8-1904b274d02c@5688.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260128
+DESCRIPTION:Originally Posted: 2026-01-28\nhttps://hulms.instructure.com/courses/4981/discussion_topics/62030\n\n<p><strong data-start="136" data-end="155">Hello everyone\,</strong><br data-start="155" data-end="158">At this point in the semester\, you should start working on your projects. The following document ...
+SUMMARY:📢 Final Project/Research Paper (CS 435-L1)
+UID:ad0bf4e7-e341-4c1c-8db4-4bf9ccb36ced@ad0b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://hulms.instructure.com/courses/4981/assignments/62988
+DTSTART:20260201T185959Z
+SUMMARY:📝 A2: Ethics of AI MOOC (CS 435-L1)
+UID:91f8f6de-67c4-414f-b1f8-bdf14dad7325@91f8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260129
+DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61937\n\n<p><span data-teams="true">Dear Kaavish Students\,</span></p>\n<p><span data-teams="true">Career City 2026 is being held on 29th January from 10-5 pm and will be featuring 100+ organization\, mentorship ...
+SUMMARY:📢 Career City 2026 - On Jan 29 (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
+UID:1a45f432-030c-4f5f-a330-4bb4463a854b@1a45.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Originally Posted: 2026-01-20\nhttps://hulms.instructure.com/courses/4989/discussion_topics/61764\n\n<p>Dear Students:</p>\n<p>Prior to our class on Thursday\, please go through the following:</p>\n<ul>\n<li>Watch this video: <a href="https://www.youtube.com/watch?v=EDVKxSNdSic&amp\;t=15s" target="_blank"...
+SUMMARY:📢 B. Wajid\, Class on 20.01.2026 (CS 450-L1)
+UID:289aa29b-9c5b-472a-9a0a-2bc17446f178@289a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260129
+DESCRIPTION:Originally Posted: 2026-01-29\nhttps://hulms.instructure.com/courses/5046/discussion_topics/62074\n\n<p>Hi all\,</p>\n<p>I need your continuous feedback so please fill the lecture feedback from latest by midnight of lecture day. Form <a class="inline_disabled" title="Link" href="https://docs.google.com...
+SUMMARY:📢 [L2-Hammad] Lecture Feedback Form (Mandatory) (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:361a3dc3-558d-48c9-b849-37cba3ec8075@361a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260126
+DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61942\n\n<p>Dear students\,</p>\n<p>Quiz 2 will start at 4:30pm. Please be at W-321 to attempt the quiz.</p>\n<p>Best\,</p>\n<p>CS 435 Team</p>...
+SUMMARY:📢 Quiz 2 (CS 435-L1)
+UID:cbe551a4-209c-4155-933b-91daee52ea0f@cbe5.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260203
 DESCRIPTION:Originally Posted: 2026-01-26\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61923\n\n<div class="x_x_elementToProof" data-olk-copy-source="MessageBody">Hi All:</div>\n<div class="x_x_elementToProof"><span style="font-size: 24pt\;"><strong>EVENT 1</strong></span></div>\n<div class="x_x_el...
 SUMMARY:📢 Possible Professional vist  (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
-UID:6bbecf61-4e14-4fea-9677-6c0eb92f9ac4@6bbe.org
+UID:d71b0581-97de-4eac-b2c9-195ecbe8d5a6@d71b.org
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:https://hulms.instructure.com/courses/5040/assignments/62138
+DTSTART:20260202T185900Z
+SUMMARY:📝 01-Progress Update (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
+UID:f814e531-9e3c-425f-8d8d-47d166d4ac27@f814.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260122
+DESCRIPTION:Originally Posted: 2026-01-22\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61863\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p><a class="inline_disabled" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSJi3k8dXr8daHEY3HaIYL1LM3OnXPXymXooUHxeFVlUDmagHqQ4PyVp...
+SUMMARY:📢 Recitation Sessions and TAs Ehsaas Hours Schedule (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:1fba4d52-eefb-44f1-b625-50f8a1f54a79@1fba.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Originally Posted: 2026-01-20\nhttps://hulms.instructure.com/courses/5040/discussion_topics/61753\n\n<p>Dear Students (Section C3)\,</p>\n<p>Thank you for the updates on your projects during Standup Meeting 1.&nbsp\;</p>\n<p>For standup meeting 2\, as discussed\, each group should demonstrate their actual ...
+SUMMARY:📢 Standup Meeting 2 (Section C3) (CS 492-C1\,C2\,C3\,C4\,C5\,C6)
+UID:9108a354-ae22-41b4-a568-b7a26d58c150@9108.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Originally Posted: 2026-01-14\nhttps://hulms.instructure.com/courses/4989/discussion_topics/61509\n\n<p>Dear Students\,<br><br>All future lectures will be held in Room C-200.</p>\n<p>Regards\,</p>\n<p>B. Wajid</p>...
+SUMMARY:📢 B. Wajid - Room Change (C-200) (CS 450-L1)
+UID:ac94e49d-a046-49d7-b06c-5b7c36e8b9b5@ac94.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260130
+DESCRIPTION:Originally Posted: 2026-01-30\nhttps://hulms.instructure.com/courses/5046/discussion_topics/62123\n\n<p>Dear Students\,</p>\n<p>I hope you all are doing well.</p>\n<p>This is a final reminder to sign up for project teams on Canvas. Deadline is today\, 11:59 p.m. Anyone who isn't able to form their team b...
+SUMMARY:📢 Reminder for Project Team signup (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:fe37c582-f0ed-45cd-9a11-cb623dba8b55@fe37.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Originally Posted: 2026-01-14\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61495\n\n<p>Dear Students\,&nbsp\;</p>\n<p>Welcome to the Generative AI course! You can find the Office Hours and the Weekly Readings in the <a title="General" href="https://hulms.instructure.com/courses/4981/mod...
+SUMMARY:📢 Instructions for the course (CS 435-L1)
+UID:b1024670-22a3-4818-a506-b4af738a3281@b102.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260122
+DESCRIPTION:Originally Posted: 2026-01-22\nhttps://hulms.instructure.com/courses/5046/discussion_topics/61828\n\n<p>Hi all\,</p>\n<p>Due to an emergency I won’t be able to conduct the lecture today (22/01/26). I’ll share the make up lecture schedule later.&nbsp\;<br><br>- Hammad</p>...
+SUMMARY:📢 [L2-Hammad] No class today (CS/CE 412/471-L1\,L2\,L3\,L4)
+UID:dddd2159-54c4-4d5d-a09d-1a0cbff826c6@dddd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260125
+DESCRIPTION:Originally Posted: 2026-01-25\nhttps://hulms.instructure.com/courses/4981/discussion_topics/61912\n\n<p><span style="font-family: inherit\; font-size: 1rem\;">Hello everyone</span></p>\n<p>I'll be your TA for CS 435- GenAI this semester. I hope you guys have a great time in the course.<br>I'll be keepin...
+SUMMARY:📢 Announcement from your TA (CS 435-L1)
+UID:0118780c-02c5-458c-8f3e-5630a7e65ab0@0118.org
 END:VEVENT
 END:VCALENDAR
